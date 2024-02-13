@@ -1,14 +1,5 @@
 ﻿namespace DZ_class
 {
-
-    public interface IAnimal
-    {
-        string Name { get; set; }
-        string OwnerName { get; set; }
-
-        void SayHello();
-    }
-
     class Program
     {
         static void Main()
